@@ -1,0 +1,122 @@
+﻿
+
+<div class="container-fluid">
+    <div class="row">
+        <h3>ABOUT</h3>
+    </div>
+    <div class="row">
+
+        <img src="~/images/aboutus.jpg" />
+        <p>
+            Suspendisse eget lectus luctus, accumsan neque vel, pellentesque metus. Donec quis luctus justo, ultricies lobortis ante. Phasellus sodales elit non convallis scelerisque. Curabitur ac eleifend lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas elementum, turpis vitae dictum luctus, elit arcu malesuada ex, nec scelerisque tortor ipsum id eros. In sit amet felis vel magna faucibus tristique. Etiam id elit nisl. Praesent ac velit in augue pellentesque lobortis id a magna. Vestibulum pellentesque venenatis sem, sed facilisis diam hendrerit pellentesque. Cras lobortis ac nulla a tempor. Sed maximus nulla ut pretium egestas. Phasellus ut tristique ex. Cras urna leo, tempus id vulputate ut, sodales ac erat.
+        </p>
+    </div>
+
+    <div class="row mt-2" style="border-color:crimson;border:solid;">
+
+        <div>
+            <h2>Contact</h2>
+        </div>
+        <div>
+            <p>You can contact me in many ways. feel free to contact me</p>
+            <hr style="color:crimson" />
+        </div>
+
+        <div class="info row mt-2">
+            <div class="col-md-6">
+
+                <div class=row>
+                    <div class="col-md-2">
+                        <i class="fa fa-globe fa-3x"></i>
+                    </div>
+                    <div class="col-md-10">
+                        <h4>Location:</h4>
+                        <p>, Istanbul, TURKEY</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <i class="fa fa-envelope fa-3x"></i>
+                    </div>
+
+                    <div class="col-md-10">
+                        <h4>Email:</h4>
+                        <p>bozkurtdenizeri@gmail.com</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <i class="fa fa-mobile fa-3x"></i>
+                    </div>
+
+                    <div class="col-md-10">
+                        <h4>Call:</h4>
+                        <p>+90 534 843 03 25</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <i class="fa fa-whatsapp fa-3x"></i>
+                    </div>
+                    <div class="col-md-10">
+                        <h4>Message:</h4>
+                        <p>+90 534 843 03 25</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="col-md-6">
+
+            <div class="col-md-6">
+
+<div style="position:relative;overflow:hidden;"><a href="https://yandex.com.tr/harita/983/turkey/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Türkiye</a><a href="https://yandex.com.tr/harita/115698/zeytinburnu/geo/denizati_kent_sitesi/3319954755/?from=morda_new&ll=28.892048%2C40.985621&source=yamain_maps&utm_medium=mapframe&utm_source=maps&z=18.38" style="color:#eee;font-size:12px;position:absolute;top:14px;">Denizatı Kent Sitesi — Yandex Haritalar</a><iframe src="https://yandex.com.tr/map-widget/v1/-/CCUReFdThC" frameborder="0" style="width: 100%; height:310px; border:0;" allowfullscreen=""></iframe></div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+        <form asp-action="" method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="All"></div>
+            <div class="card-body">
+                <!-- FirstName -->
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" class="form-control">
+                </div>
+                <!-- Mail -->
+                <div class="form-group">
+                    <label>E-Mail</label>
+                    <input type="email" class="form-control">
+                </div>
+                <!-- Subject -->
+                <div class="form-group">
+                    <label>Subject</label>
+                    <input type="text" class="form-control">
+                </div>
+                <!-- Content -->
+                <div class="form-group">
+                    <label>Content</label>
+                    <textarea rows="10" style="resize:none;width:100%;"></textarea>
+                </div>
+            </div>
+            <!-- /.card-body -->
+
+            <div class="card-footer">
+                <button type="submit" class="btn btn-primary">Send</button>
+            </div>
+        </form>
+    </div>
+
+</div>
